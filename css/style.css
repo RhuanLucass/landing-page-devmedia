@@ -1,3 +1,7 @@
+:root{
+    font-size: 15px;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -8,7 +12,6 @@
 }
 
 body{
-    /* font-family: 'Montserrat', sans-serif; */
     font-family: 'Raleway', sans-serif;
 }
 
@@ -425,3 +428,399 @@ footer p a{
 
 /* RESPONSIVE */
 
+@media screen and (max-width: 768px){
+    .container{
+        margin: 2%;
+    }
+    
+    
+    /* HEADER */
+    
+    
+    header{
+        padding: 1.5% 20%;
+    }
+    
+    header .search{
+        padding-right: 3%;
+    }
+    
+    
+    /* MAIN */
+
+    
+    main.banner-main{
+        height: 47vw;
+    }
+    
+    main.banner-main .options{
+        width: 75%;
+    }
+    
+    main .options .buttons button{
+        padding: 2% 1%;
+    }
+    
+    main  .options .options-form{
+        padding: 5% 3%;
+    }
+    
+    main .options .options-form h2{
+        margin-bottom: 4%;
+    }
+    
+    main .options-form form .form-wrapper{
+        margin-bottom: 3%;
+    }
+    
+    main .options .options-form input[type=text]{
+        padding: 5% 3%;
+    }
+    
+    main .options .options-form input[type=submit]{
+        padding: 2% 2.5%;
+    }
+    
+    
+    /* OFFERS */
+    
+    
+    .description h2{
+        margin-top: 4%;
+    }
+    
+    section.offers .cities .img{
+        margin: 4%;
+    }
+    
+    
+    /* Newsletter */
+    
+    
+    section.newsletter .get-email{
+        padding: 1% 1.5% 0 1.5%;
+    }
+    
+    section.newsletter .get-email input[type=email]{
+        padding: 1.5% 1%;
+    }
+    
+    section.newsletter .get-email input[type=submit]{
+        padding: 1.5%;
+    }
+    
+    
+    /* CONTACT */
+    
+    section.contact h2{
+        font-size: 2rem;
+    }
+    
+    section.contact form input[type=submit]:hover{
+        background-color: rgb(122, 30, 30);
+    }
+    
+    
+    /* FOOTER */
+    
+
+    footer{
+        padding-bottom: 2%;
+    }
+    
+    footer h3{
+        font-size: 1.2rem;
+    }
+    
+    footer .social{
+        margin: 5% 0;
+    }
+    
+    footer .social a{
+        font-size: 1.5rem;
+    }   
+}
+
+@media screen and (max-width: 450px){
+    .container{
+        margin: 5% 4%;
+    }
+    
+    
+    /* HEADER */
+    
+    
+    header{
+        padding: 3%;
+    }
+    
+    header .search{
+        padding-right: 3%;
+    }
+    
+    
+    /* MAIN */
+    
+    
+    main.banner-main{
+        background: none;
+        height: 100%;
+    }
+    
+    main.banner-main .container{
+        display: block;
+        margin: 0;
+    }
+    
+    main.banner-main .options{
+        width: 100%;
+        position: static;
+    }
+    
+    main .options .buttons{
+        background-color: black;
+    }
+    
+    main .options .buttons button{
+        width: auto;
+        padding: 2.5%;
+    }
+    
+    main  .options .options-form{
+        padding: 3% 4%;
+    }
+    
+    main .options .options-form h2{
+        margin: 4% 0;
+    }
+    
+    main .options-form form .form-wrapper{
+        display: block;
+    }
+    
+    main .options-form form .form-wrapper .ffrom,
+    main .options-form form .form-wrapper .fto{
+        width: 100%;
+        margin: 1% 0;
+    }
+    
+    main .options .options-form input[type=text]{
+        padding: 2.5%;
+    }
+    
+    main .options .options-form input[type=submit]{
+        padding: 2.5% 3%;
+    }
+    
+    
+    /* OFFERS */
+    
+    
+    .description h2{
+        margin-bottom: 5%;
+    }
+    
+    section.offers .cities{
+        display: block;
+    }
+    
+    section.offers .cities .img{
+        margin: 0;
+        padding: 1.5% 0;
+    }
+    
+    section.offers .cities .img-main{
+        margin: 0;
+    }
+    
+    section.offers .cities .cities-alt .img{
+        margin-right: 0;
+    }
+    
+    section.offers .cities .city-main{
+        width: 100%;
+    }
+    
+    section.offers .cities .cities-alt{
+        width: 100%;
+        display: block;
+    }
+
+    section.offers .cities .img p{
+        bottom: 6%;
+        left: 4%;
+        font-size: 1.2rem;
+    }
+    
+    
+    /* EXPLORE */
+    
+    
+    section.explore .tickets{
+        display: block;
+    }
+    
+    section.explore .ticket-1,
+    section.explore .ticket-2{
+        width: 100%;
+    }
+    
+    section.explore .ticket-1 img{
+        padding-right: 0;
+    }
+    
+    section.explore .ticket-2 img{
+        padding-left: 0;
+    }
+    
+    section.explore .ticket-description .buy{
+        margin:10% 4%;
+    }
+    
+    
+    /* Newsletter */
+    
+    
+    section.newsletter{
+        margin: 3% 0;
+    }
+    
+    section.newsletter .get-email{
+        padding: 3% 4%;
+    }
+    
+    section.newsletter .get-email p{
+        margin: 5% 0;
+    }
+    
+    section.newsletter .get-email input[type=email]{
+        padding: 3% 2%;
+    }
+    
+    section.newsletter .get-email input[type=submit]{
+        margin-top: 3%;
+        padding: 3% 1.5%;
+    }
+    
+    
+    /* CONTACT */
+
+    
+    section.contact .info span{
+        margin: .5% 0;
+    }
+    
+    section.contact form input[type=text],
+    section.contact form input[type=email]{
+        padding: 6% 2%;
+        margin: 2% 0;
+    }
+    
+    section.contact form textarea{
+        padding: 4% 2%;
+        margin: 2% 0;
+    }
+    
+    section.contact form input[type=submit]{
+        margin: 2% 0;
+    }
+    
+    section.contact form input[type=submit]:hover{
+        background-color: rgb(122, 30, 30);
+    }
+    
+    
+    /* FOOTER */
+
+    
+    footer .social{
+        margin: 10% 0;
+    }   
+}
+
+@media screen and (max-width:320px){
+    :root{
+        font-size: 14px;
+    }
+
+    
+    /* MAIN */
+
+    
+    main.banner-main .options{
+        margin-bottom: 30%;
+    }
+    
+    main .options .buttons button{
+        width: auto;
+        padding: 3.5%;
+    }
+    
+    main .options .options-form h2{
+        margin: 6% 0;
+    }
+    
+    main .options .options-form input[type=text]{
+        padding: 3.5% 3%;
+    }
+    
+    main .options .options-form input[type=submit]{
+        padding: 4% 5%;
+    }
+    
+    
+    /* OFFERS */
+    
+    
+    .description h2{
+        margin: 5% 0;
+    }
+
+    .description p{
+        margin: 6% 0;
+    }
+    
+    
+    /* Newsletter */
+    
+    
+    section.newsletter{
+        margin: 5% 0;
+    }
+    
+    section.newsletter .get-email{
+        padding: 5%;
+    }
+    
+    section.newsletter .get-email p{
+        margin: 10% 0;
+    }
+    
+    section.newsletter .get-email input[type=email]{
+        padding: 4% 3%;
+    }
+    
+    section.newsletter .get-email input[type=submit]{
+        margin-top: 5%;
+    }
+    
+    
+    /* CONTACT */
+
+    
+    section.contact .info span{
+        margin: 1% 0;
+    }
+    
+    section.contact form textarea{
+        padding: 6% 2%;
+    }
+
+    
+    /* FOOTER */
+
+    
+    footer .social{
+        margin: 13% 0;
+    }  
+}
