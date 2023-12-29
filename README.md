@@ -6,6 +6,10 @@ This repository contains a landing page developed as part of a challenge propose
 
 The project represents a landing page for a travel app where users can explore travel dates, hotel options, car rentals, and view images of destination cities. Developed using HTML and CSS, this project served as an opportunity to refine concepts of semantic HTML and the utilization of flexbox for element positioning..
 
+## Prévia do Projeto
+
+![Preview](https://github.com/RhuanLucass/landing-page-devmedia/blob/master/assets/Captura%20de%20tela%202023-12-29%20182712.png)
+
 ## Technologies Used
 
 - HTML
