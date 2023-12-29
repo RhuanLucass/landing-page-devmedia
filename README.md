@@ -12,7 +12,7 @@ The project represents a landing page for a travel app where users can explore t
 
 ## How to use
 
-- Access the page link on github: [Netflix Home](https://rhuanlucass.github.io/landing-page-devmedia/)
+- Access the page link on github: [Travel App](https://rhuanlucass.github.io/landing-page-devmedia/)
 
 or
 
