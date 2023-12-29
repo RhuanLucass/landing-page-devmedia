@@ -14,7 +14,7 @@ The project represents a landing page for a travel app where users can explore t
 
 Access the page link on github: https://github.com/RhuanLucass/landing-page-devmedia
 
-#or
+or
 
 1. Clone this repository.
 2. Open the `index.html` file in your browser to view the page.
