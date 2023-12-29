@@ -10,6 +10,15 @@ The project represents a landing page for a travel app where users can explore t
 
 ![Preview](https://github.com/RhuanLucass/landing-page-devmedia/blob/master/assets/Captura%20de%20tela%202023-12-29%20182712.png)
 
+## How to use
+
+Access the page link on github: https://github.com/RhuanLucass/landing-page-devmedia
+
+#or
+
+1. Clone this repository.
+2. Open the `index.html` file in your browser to view the page.
+
 ## Technologies Used
 
 - HTML
